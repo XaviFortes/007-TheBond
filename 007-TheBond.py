@@ -103,8 +103,8 @@ if  __name__=="__main__":
     print("\n \n")
     while(1):
         print("1.Instagram \t 2.Search")
-        print("3.Phoneloopkup \t 4.Iplookup")
-        print("5.Update \t 6.Search username Across the Social Media")
+        print("3.Phonelookup \t 4.IPlookup")
+        print("5.Update \t 6.Search username across the Social Media")
         print("7.Exit")
         a=int(input("Select your option :\t"))
         if a == 1:
@@ -117,7 +117,7 @@ if  __name__=="__main__":
             no = str (input("Enter number : \t"))
             number(no)
         if a == 4:
-            ip=str(input ("Enter Ip address "))
+            ip=str(input ("Enter IP address "))
             find_ip(ip)
         if a == 5:
             try :
@@ -130,7 +130,7 @@ if  __name__=="__main__":
             print("\n")
             
         if a == 7:
-            print("Closing the application in 10 second")
+            print("Closing the application in 1 second")
             time.sleep(1)
             break
 
